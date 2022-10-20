@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TRABALHO DO MODULO 2</title>
+</head>
+<body>
+    
+      <main class="container">
+        <h1>MENSAGEM CODIFICADAS</h1>
+        
+        
+        <form>
+    
+          <fieldset>
+              <select name="codigo" id="codigo">
+                
+            <option value="cesar">Cifra de César</option>
+            <option value="base64">Base 64</option>
+          </select>
+    
+          <fieldset class="divChave">
+            <label  id="letra"  for="chave">ESCOLHA UM NUMERO DE 1 A 25:</label>
+            <input type="number" id="chave" value="2" max="30" >
+          </fieldset>
+            
+            <fieldset class="radioCod">
+            <div class="divRadio">
+              <input type="radio" name="cod" class="radio" id="cod" />
+              <label   id="letra"  for="codificar">Codificar</label>
+            
+              <input type="radio" name="cod" class="radio" id="decod" />
+              <label  id="letra" for="decodificar">Decodificar</label>
+            </div>
+          </fieldset>
+            
+     <label  class="letra1" for="mensagem">SEU TEXTO:</label>
+                <textarea id="mensagem" cols="20" rows=""></textarea>
+                <label   id="letra" for="resultado">Resultado:</label>
+                <textarea name="Resultado" id="resultado" rows="4" disabled></textarea>
+                <button  class="fonte" id="botaoResultado">TESTAR</button>
+    
+            </fieldset>
+    </form>
+    <br><br><br><br><br>
+    
+                    <footer class="icone">
+                      <div>
+                        <a href="https://www.linkedin.com/in/jean-vitor-sena-56693624b/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/jeanvitor29"><ion-icon name="logo-github"></ion-icon></a>
+                     </div>
+                         <h3 class="jean">JEAN VITOR B. DE SENA</h3>
+                    </footer>
+        <script src="js/javascript.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+</html>

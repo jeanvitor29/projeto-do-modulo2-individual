@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+body {
+    background-image: url(https://media4.giphy.com/media/WoD6JZnwap6s8/giphy.gif?cid=ecf05e4790um8qwlvs22geryvmloz3atqfk7h14dndpcmhrm&rid=giphy.gif&ct=g);
+    position:center;
+    text-align: center;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  #resultado {
+    background-color: #fff;
+    color:rgb(0, 0, 0);
+    border: 3px solid black;
+    width:30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+  }
+  
+  h1{
+    font-size: 50px;
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    color: orange;
+    
+  }
+ 
+  #letra { 
+    font-family: 'Silkscreen', cursive;
+    color: orange;
+  }
+
+  .letra1{
+    font-family: 'Silkscreen', cursive;
+    color: orange;
+  
+  }  
+
+
+  button{
+  border-radius:10px;
+  display:inline-block;
+  padding: 20px;
+  text-decoration:none;
+  border-color:#000000;
+  background-color: rgb(255, 255, 255);
+  color:black;
+  margin-top: 10px;
+ font-size: 15px;
+ font-weight: bold; 
+}
+  
+  button:hover{
+    color: rgb(179, 13, 13);
+ 
+  }
+  
+  fieldset{
+   border:none;
+  }
+  
+  label{
+    font-size: 25px;
+  display: block;
+  }
+
+  #mensagem{
+    width: 30%;
+    color:black;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;  
+  }
+  
+ .jean{
+  font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    color: orange;
+ }
+.fonte{
+    font-family: 'Silkscreen', cursive;
+    color: orange;
+}
+  
+  
+  .divRadio{
+    display:flex;
+    justify-content: center;
+   
+  
+  }
+  .icone{
+    border:solid;
+    border-radius: 20px;
+    background-image: url(https://media2.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif?cid=ecf05e47599f7l8vk0mbaajyt6oqi4ptwygk5pn37csag2pf&rid=giphy.gif&ct=g);
+    cursor: auto;
+  }
+  .icone a{
+    font-size:30px;
+    padding: 2px;
+
+  }
+  #codigo{
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+  }
+
