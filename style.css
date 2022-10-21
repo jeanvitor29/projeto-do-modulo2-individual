@@ -8,6 +8,8 @@ body {
     align-items: center;
     color:rgb(0, 0, 0);
     font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    color: orange;
   }
   
   #resultado {
@@ -31,23 +33,9 @@ body {
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    font-family: 'Silkscreen', cursive;
-    color: orange;
     
   }
  
-  #letra { 
-    font-family: 'Silkscreen', cursive;
-    color: orange;
-  }
-
-  .letra1{
-    font-family: 'Silkscreen', cursive;
-    color: orange;
-  
-  }  
-
-
   button{
   border-radius:10px;
   display:inline-block;
@@ -81,19 +69,13 @@ body {
     border: 3px solid black;
     border-radius: 30px;
     text-align: center;
-    font-family: 'Silkscreen', cursive;  
+   
   }
   
- .jean{
-  font-family: 'Silkscreen', cursive;
-    font-size: 30px;
-    color: orange;
- }
 .fonte{
-    font-family: 'Silkscreen', cursive;
-    color: orange;
+  font-family: 'Silkscreen', cursive;
+  color: orange;
 }
-  
   
   .divRadio{
     display:flex;
@@ -114,6 +96,5 @@ body {
   }
   #codigo{
     font-size: 20px;
-    font-family: 'Silkscreen', cursive;
   }
 
