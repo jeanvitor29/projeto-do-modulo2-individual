@@ -18,6 +18,7 @@ var mensagem = document.getElementById("mensagem");
 var chave = document.getElementById("chave");
 var resultado = document.getElementById("resultado");
 
+
 botao.addEventListener("click", function (event) {
   event.preventDefault();
   var codigo = document.getElementById("codigo").value;
