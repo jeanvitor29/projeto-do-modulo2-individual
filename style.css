@@ -26,6 +26,7 @@ body {
     text-align: center;
     font-size: 30px;
     font-family: 'Silkscreen', cursive;
+    resize: none;
   }
   
   h1{
